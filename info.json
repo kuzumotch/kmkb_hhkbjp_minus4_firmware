@@ -1,7 +1,7 @@
 {
     "manufacturer": "kuzumotch",
     "maintainer": "kuzumotch",
-    "keyboard_name": "kmkb_hhkbjp_minus4",
+    "keyboard_name": "kmkbjp_minus4",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
     "matrix_pins": {
