@@ -24,7 +24,6 @@
 // };
 
 
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */
     [0] = LAYOUT(
@@ -32,13 +31,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,  JP_Q,    JP_W,    JP_E,    JP_R,    JP_T,    JP_Y,    JP_U,    JP_I,    JP_O,    JP_P,    JP_AT,   JP_LBRC, KC_ENT,                 
         KC_LCTL, JP_A,    JP_S,    JP_D,    JP_F,    JP_G,    JP_H,    JP_J,    JP_K,    JP_L,    JP_SCLN, JP_COLN, JP_RBRC, 
         KC_LSFT, JP_Z,    JP_X,    JP_C,    JP_V,    JP_B,    JP_N,    JP_M,    JP_COMM, JP_DOT,  JP_SLSH, JP_BSLS, KC_UP,  KC_RSFT,            
-        MO(1),            KC_LALT, KC_INT5, KC_SPC,  KC_SPC,  KC_INT4, KC_RWIN,                            KC_LEFT, KC_DOWN,KC_RGHT
+        MO(1),            KC_LALT, KC_INT5, KC_SPC,  MO(1),   KC_INT4, KC_RWIN,                            KC_LEFT, KC_DOWN,KC_RGHT
     ),
     [1] = LAYOUT(
-        _______,  KC_F1,  KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12, KC_F13, KC_DEL,
-        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+        QK_BOOT,  KC_F1,  KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12, KC_F13, KC_DEL,
+        _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_BSPC, KC_DEL, _______, 
-        _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______, _______, QK_BOOT,
+        _______, _______, _______, _______, _______, _______, _______, _______, KC_BSPC, KC_DEL,  _______, _______, _______, _______,
         _______,          _______, _______, _______, _______, _______, _______,                            _______, _______, _______
     ),
     [2] = LAYOUT(
